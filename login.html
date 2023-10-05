@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in page</title>
+    <link rel="icon" type="image/x-icon" href="fbee logo.png">
+
+    <style>
+        body{
+            align-items: center;
+
+            display: flex;
+
+            flex-direction: column;
+
+            background-color: rgb(57, 25, 202);
+        }
+        .centerForm{
+            background-color: white;
+
+            width: 33.3%;
+
+            padding: 20px;
+
+            margin-bottom: 5px;;
+        }
+
+        .psw{
+            width: 100%;
+            background-color: lightgrey;
+        }
+
+        .Login{
+            width: 100%;
+            background-color: blue;
+        }
+        .rem{
+            justify-content: right;
+            display: flex;
+        }
+        h1{
+            color: white;
+            font-size:50px;
+        }
+        h3{
+            color: white;
+        }
+        h5{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+        <h1><strong>facebook</strong></h1>
+        <form class='centerForm'>
+            <div>
+                <label><b>Username</b></label><br><br>
+                <input class="psw" type="text" placeholder="Username or email address" required><br><br>
+                <label><b>Password</b></label><br><br>
+                <input class="psw" type="password" placeholder="Password" required>
+                <br><br>
+                <button type="submit" class="Login">
+                    <h3>Log In</h3>
+                </button><br><br>
+                <label class="rem">
+                    <input type="checkbox">Remember me
+                </label>
+            </div>
+            <h4>Forget password?<a href="www.facebook.com">Click Here</a></h4>
+            <h5>or</h5>
+            <button type="submit" class="Login">
+                <h3>Create Account</h3>
+            </button>
+        </form>
+
+</body>
+
+</html>
